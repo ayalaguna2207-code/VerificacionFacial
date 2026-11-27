@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="verif_acento">#00ACC1</color>
+    <color name="verif_fondo">#F4F8FA</color>
+    <color name="verif_primario">#0F3D4C</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">VerificacionFacial</string>
+    <style name="Base.Theme.VerificacionFacial" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Verif" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/verif_primario</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/verif_acento</item>
+        <item name="android:windowBackground">@color/verif_fondo</item>
+    </style>
+    <style name="Theme.VerificacionFacial" parent="Base.Theme.VerificacionFacial"/>
+</resources>
